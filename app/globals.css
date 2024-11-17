@@ -27,4 +27,10 @@ body {
 .navbar {
   --navbar-height: 4rem; /* Set the height of the navbar */
   height: var(--navbar-height);
+  padding-top: 1rem;
+}
+
+.Main{
+  display: block;
+  width: fit-content;
 }

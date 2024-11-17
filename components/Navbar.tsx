@@ -8,8 +8,9 @@ export default function Navbar() {
   const cartCount = cart.reduce((count, item) => count + item.quantity, 0);
 
   return (
-    <nav className="navbar fixed top-0 left-0 w-full bg-blue-500 text-white p-4 z-50 shadow-md">
-      <div className="container mx-auto flex justify-between items-center">
+    <div className="mb-16">
+    <nav className="navbar fixed top-0 w-full bg-blue-500 text-white shadow-md z-0">
+      <div className="container mx-auto flex justify-between items-center mb-8">
         <Link href="/" className="text-2xl font-bold">
           Glasses Store
         </Link>
@@ -23,5 +24,6 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
+    </div>
   );
 }
