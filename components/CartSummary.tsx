@@ -1,7 +1,7 @@
 // components/CartSummary.tsx
 'use client';
 
-import { useCart } from '/Users/phoodit/glasses-store/context/CardContext';
+import { useCart } from '../context/CardContext';
 import Link from 'next/link';
 
 export default function CartSummary() {

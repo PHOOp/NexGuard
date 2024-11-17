@@ -1,7 +1,7 @@
 // components/ProductCard.tsx
 'use client';
 
-import { useCart } from '/Users/phoodit/glasses-store/context/CardContext';
+import { useCart } from '../context/CardContext';
 
 type Product = {
   id: number;

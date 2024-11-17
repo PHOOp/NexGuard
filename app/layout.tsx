@@ -2,7 +2,7 @@
 import './globals.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { CartProvider } from '/Users/phoodit/glasses-store/context/CardContext';
+import { CartProvider } from '../context/CardContext';
 
 export const metadata = {
   title: 'Glasses Store',
@@ -20,7 +20,7 @@ export default function RootLayout({
         <CartProvider>
           <Navbar />
           {/* Add padding to the main content to account for the Navbar's height */}
-          <main className="container mx-auto pt-16">{children}</main>
+          <main className="container mx-auto p-16">{children}</main>
           <Footer />
         </CartProvider>
       </body>
