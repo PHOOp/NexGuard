@@ -19,3 +19,12 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* globals.css */
+body {
+  padding-top: var(--navbar-height);
+}
+
+.navbar {
+  --navbar-height: 4rem; /* Set the height of the navbar */
+  height: var(--navbar-height);
+}
