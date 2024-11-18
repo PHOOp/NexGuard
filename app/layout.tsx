@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import { CartProvider } from '../context/CardContext';
 
 export const metadata = {
-  title: 'Glasses Store',
+  title: 'NexGuard',
   description: 'Find your perfect pair of glasses!',
 };
 

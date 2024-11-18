@@ -1,10 +1,7 @@
 // app/products/page.tsx
 import ProductCard from '../../components/ProductCard';
-
-const products = [
-  { id: 1, name: 'Classic Glasses', price: 99,quantity: 1, image: '/images/glasses1.jpg' },
-  { id: 2, name: 'Modern Glasses', price: 129,quantity: 1, image: '/images/glasses2.jpg' },
-];
+import {list_product} from './product_list';
+const products = list_product;
 
 export default function ProductsPage() {
   return (

@@ -8,8 +8,7 @@ export default function CartSummary() {
   const { cart } = useCart();
 
   const totalPrice = cart.reduce(
-    (total, item) => total + item.price * item.quantity,
-    0
+    (total, item) => total + item.price * item.quantity,0
   );
 
   return (

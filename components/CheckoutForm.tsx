@@ -1,7 +1,8 @@
 // components/CheckoutForm.tsx
 'use client';
-
+import { useCart } from '../context/CardContext';
 export default function CheckoutForm() {
+  const { removeFromCart } = useCart();
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     alert('Order placed successfully!');
@@ -34,6 +35,7 @@ export default function CheckoutForm() {
       <button
         type="submit"
         className="bg-blue-500 text-white py-2 px-4 rounded"
+        onClick={() => removeFromCart(2)}
       >
         Place Order
       </button>

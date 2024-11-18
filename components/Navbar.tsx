@@ -12,7 +12,7 @@ export default function Navbar() {
     <nav className="navbar fixed top-0 w-full bg-blue-500 text-white shadow-md z-0">
       <div className="container mx-auto flex justify-between items-center mb-8">
         <Link href="/" className="text-2xl font-bold">
-          Glasses Store
+          Home
         </Link>
         <div className="flex items-center space-x-4">
           <Link href="/products" className="hover:underline">
